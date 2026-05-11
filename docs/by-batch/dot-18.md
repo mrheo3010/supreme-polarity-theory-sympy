@@ -1,6 +1,6 @@
 # Đợt 18
 
-_v3.20 · 12/05/2026 GMT+7_
+_v3.20 · 11/05/2026 GMT+7_
 
 1 script in this batch.
 

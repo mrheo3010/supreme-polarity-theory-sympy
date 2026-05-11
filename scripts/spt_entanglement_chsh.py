@@ -1,7 +1,7 @@
 """
 SPT Law 46 - Quantum Entanglement (Bell-CHSH) from Q_7 x Q_7
 ==============================================================
-[Dot 16 v3.18 - 12/05/2026 GMT+7]
+[Dot 16 v3.18 - 11/05/2026 GMT+7]
 
 Bell's 1964 theorem proves no local hidden-variable theory reproduces QM
 correlations. Clauser-Horne-Shimony-Holt (CHSH) 1969 inequality bounds

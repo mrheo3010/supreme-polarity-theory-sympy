@@ -3,7 +3,7 @@
 spt_unified_force_mechanism.py
 ==============================
 
-Đợt 12 (v3.13, 11/05/2026 GMT+7) — UNIFIED FORCE MECHANISM FROM DANode ROTATION
+Đợt 12 (v3.13, 10/05/2026 GMT+7) — UNIFIED FORCE MECHANISM FROM DANode ROTATION
 -------------------------------------------------------------------------------
 
 CENTRAL CLAIM (Law 42):

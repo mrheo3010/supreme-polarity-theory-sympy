@@ -3,7 +3,7 @@
 spt_gw_phase_epsilon.py
 =======================
 
-Đợt 9 (v3.10, 11/05/2026 GMT+7) — GW PHASE RESIDUAL ε TIER-B CLOSURE
+Đợt 9 (v3.10, 10/05/2026 GMT+7) — GW PHASE RESIDUAL ε TIER-B CLOSURE
 ---------------------------------------------------------------------
 
 Upgrades the last "CLOSE" entry in the Derivation Explorer (GW phase

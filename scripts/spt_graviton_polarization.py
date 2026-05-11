@@ -1,7 +1,7 @@
 """
 SPT Law 47 - Spin-2 Graviton Polarization from Q_7 yao-pair anti-symmetry
 ==========================================================================
-[Dot 17 v3.19 - 12/05/2026 GMT+7]
+[Dot 17 v3.19 - 11/05/2026 GMT+7]
 
 General Relativity predicts gravitational waves have exactly 2 polarizations
 (h_+ and h_x, the 'plus' and 'cross' modes). LIGO/Virgo confirmed at >5 sigma

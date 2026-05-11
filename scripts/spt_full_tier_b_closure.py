@@ -3,7 +3,7 @@
 spt_full_tier_b_closure.py
 ==========================
 
-Đợt 8 (v3.9, 11/05/2026 GMT+7) — FULL TIER-B CLOSURE
+Đợt 8 (v3.9, 10/05/2026 GMT+7) — FULL TIER-B CLOSURE
 -----------------------------------------------------
 
 Closes the LAST 7 Tier-A PASS Laws by lifting them all to Tier-B EXACT

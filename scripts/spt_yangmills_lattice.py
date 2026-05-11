@@ -1,7 +1,7 @@
 """
 SPT Law 51 - Yang-Mills Mass-Gap: Lattice Continuum-Limit Argument
 ====================================================================
-[Dot 21 v3.23 - 12/05/2026 GMT+7]
+[Dot 21 v3.23 - 11/05/2026 GMT+7]
 
 SCOPE STATEMENT (read first):
   This script does NOT solve the Clay Millennium $1M Yang-Mills mass-gap

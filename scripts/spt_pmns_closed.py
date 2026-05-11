@@ -1,7 +1,7 @@
 """
 SPT Law 48 - PMNS Angles Closed-Form from Q_7 Coset Overlaps
 ==============================================================
-[Dot 18 v3.20 - 12/05/2026 GMT+7]
+[Dot 18 v3.20 - 11/05/2026 GMT+7]
 
 The PMNS (Pontecorvo-Maki-Nakagawa-Sakata) matrix describes neutrino
 flavor-mass mixing, analogous to CKM for quarks. It has 4 free parameters

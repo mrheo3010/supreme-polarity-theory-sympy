@@ -6,7 +6,7 @@
 
 _SPT Law 49 - Cascade-Depth Tier-B Closure (d_baryo, d_strong, d_mu)_
 
-Đợt 19 · v3.21 · 12/05/2026 · Tier B
+Đợt 19 · v3.21 · 11/05/2026 · Tier B
 
 Law 37 gives the cascade-depth structural form: d_i / d_0 = h_i + C_i / Q_3 where h_i = Hamming weight (integer) and C_i = Casimir-weighted rational.
 

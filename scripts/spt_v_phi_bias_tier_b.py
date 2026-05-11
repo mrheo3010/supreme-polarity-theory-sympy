@@ -3,7 +3,7 @@
 spt_v_phi_bias_tier_b.py
 ========================
 
-Đợt 7 (v3.8, 11/05/2026 GMT+7) — V(φ) PHASE-BIAS TIER-B UPGRADE
+Đợt 7 (v3.8, 10/05/2026 GMT+7) — V(φ) PHASE-BIAS TIER-B UPGRADE
 ----------------------------------------------------------------
 
 Upgrades three previously-Tier-A closures (η_B baryogenesis, α_s(M_Z),

@@ -6,7 +6,7 @@
 
 _SPT Law 51 - Yang-Mills Mass-Gap: Lattice Continuum-Limit Argument_
 
-Đợt 21 · v3.23 · 12/05/2026 · Tier —
+Đợt 21 · v3.23 · 11/05/2026 · Tier —
 
 SCOPE STATEMENT (read first): This script does NOT solve the Clay Millennium $1M Yang-Mills mass-gap problem. That requires constructing a 4D quantum Yang-Mills field theory satisfying Osterwalder-Schrader axioms AND proving the spectrum has a positive lower bound on the second eigenvalue of the Hamiltonian. No one (SPT or otherwise) has done this rigorously in 25 years.
 

@@ -9,8 +9,8 @@
 ## Quick start
 
 ```bash
-git clone https://github.com/REPLACE-WITH-YOUR-USERNAME/spt-sympy-proofs.git
-cd spt-sympy-proofs
+git clone https://github.com/REPLACE-WITH-YOUR-USERNAME/supreme-polarity-theory-sympy.git
+cd supreme-polarity-theory-sympy
 pip install -r requirements.txt
 bash verify_all.sh
 ```

@@ -1,7 +1,7 @@
 """
 SPT Law 50 - Cosmological Inflation Potential from V(phi) = -lambda*cos(phi/phi_0)
 ====================================================================================
-[Dot 20 v3.22 - 12/05/2026 GMT+7]
+[Dot 20 v3.22 - 11/05/2026 GMT+7]
 
 Inflation is the early-universe quasi-exponential expansion that solves
 the horizon + flatness + monopole problems. Mainstream theory (Guth 1980,

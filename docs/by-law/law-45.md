@@ -6,7 +6,7 @@
 
 _SPT Law 45 - Entropy + Arrow of Time from DA-Coset Decoherence_
 
-Đợt 15 · v3.17 · 12/05/2026 · Tier —
+Đợt 15 · v3.17 · 11/05/2026 · Tier —
 
 Boltzmann's 1872 H-theorem gave statistical mechanics a foundation for the 2nd law, but Loschmidt's paradox remains: microscopic dynamics is time- reversal symmetric, so where does the arrow of time come from?
 

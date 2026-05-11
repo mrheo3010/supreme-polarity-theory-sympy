@@ -1,7 +1,7 @@
 """
 SPT Law 49 - Cascade-Depth Tier-B Closure (d_baryo, d_strong, d_mu)
 ======================================================================
-[Dot 19 v3.21 - 12/05/2026 GMT+7]
+[Dot 19 v3.21 - 11/05/2026 GMT+7]
 
 Law 37 gives the cascade-depth structural form:
     d_i / d_0 = h_i + C_i / Q_3

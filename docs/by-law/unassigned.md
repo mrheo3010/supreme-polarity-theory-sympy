@@ -196,9 +196,9 @@ Quick-win K1 (10/05/2026). Previously, E = mc² was used as an INPUT in Klein-Go
 
 _spt_full_tier_b_closure.py_
 
-Đợt 8 · v3.9 · 11/05/2026 · Tier B
+Đợt 8 · v3.9 · 10/05/2026 · Tier B
 
-Đợt 8 (v3.9, 11/05/2026 GMT+7) — FULL TIER-B CLOSURE -----------------------------------------------------
+Đợt 8 (v3.9, 10/05/2026 GMT+7) — FULL TIER-B CLOSURE -----------------------------------------------------
 
 **Run**: `python3 scripts/spt_full_tier_b_closure.py` · **Source**: [`scripts/spt_full_tier_b_closure.py`](../../scripts/spt_full_tier_b_closure.py)
 
@@ -236,9 +236,9 @@ Two outputs:
 
 _spt_gw_phase_epsilon.py_
 
-Đợt 9 · v3.10 · 11/05/2026 · Tier B
+Đợt 9 · v3.10 · 10/05/2026 · Tier B
 
-Đợt 9 (v3.10, 11/05/2026 GMT+7) — GW PHASE RESIDUAL ε TIER-B CLOSURE ---------------------------------------------------------------------
+Đợt 9 (v3.10, 10/05/2026 GMT+7) — GW PHASE RESIDUAL ε TIER-B CLOSURE ---------------------------------------------------------------------
 
 **Run**: `python3 scripts/spt_gw_phase_epsilon.py` · **Source**: [`scripts/spt_gw_phase_epsilon.py`](../../scripts/spt_gw_phase_epsilon.py)
 
@@ -426,9 +426,9 @@ m(d) = m_Pl * exp(-d/d_0)    with d_0 = sqrt(7)/4   (May 2026 algebraic-exact)
 
 _spt_sound_wave.py_
 
-Đợt 13 · v3.14 · 11/05/2026 · Tier —
+Đợt 13 · v3.14 · 10/05/2026 · Tier —
 
-Đợt 13 (v3.14, 11/05/2026 GMT+7) — SOUND WAVE FROM DANode COLLECTIVE ROTATION -----------------------------------------------------------------------------
+Đợt 13 (v3.14, 10/05/2026 GMT+7) — SOUND WAVE FROM DANode COLLECTIVE ROTATION -----------------------------------------------------------------------------
 
 **Run**: `python3 scripts/spt_sound_wave.py` · **Source**: [`scripts/spt_sound_wave.py`](../../scripts/spt_sound_wave.py)
 
@@ -516,9 +516,9 @@ _SymPy: Heisenberg uncertainty principle from canonical commutation_
 
 _spt_unified_force_mechanism.py_
 
-Đợt 12 · v3.13 · 11/05/2026 · Tier —
+Đợt 12 · v3.13 · 10/05/2026 · Tier —
 
-Đợt 12 (v3.13, 11/05/2026 GMT+7) — UNIFIED FORCE MECHANISM FROM DANode ROTATION -------------------------------------------------------------------------------
+Đợt 12 (v3.13, 10/05/2026 GMT+7) — UNIFIED FORCE MECHANISM FROM DANode ROTATION -------------------------------------------------------------------------------
 
 **Run**: `python3 scripts/spt_unified_force_mechanism.py` · **Source**: [`scripts/spt_unified_force_mechanism.py`](../../scripts/spt_unified_force_mechanism.py)
 
@@ -526,9 +526,9 @@ _spt_unified_force_mechanism.py_
 
 _spt_v_phi_bias_tier_b.py_
 
-Đợt 7 · v3.8 · 11/05/2026 · Tier B
+Đợt 7 · v3.8 · 10/05/2026 · Tier B
 
-Đợt 7 (v3.8, 11/05/2026 GMT+7) — V(φ) PHASE-BIAS TIER-B UPGRADE ----------------------------------------------------------------
+Đợt 7 (v3.8, 10/05/2026 GMT+7) — V(φ) PHASE-BIAS TIER-B UPGRADE ----------------------------------------------------------------
 
 **Run**: `python3 scripts/spt_v_phi_bias_tier_b.py` · **Source**: [`scripts/spt_v_phi_bias_tier_b.py`](../../scripts/spt_v_phi_bias_tier_b.py)
 
@@ -546,9 +546,9 @@ _SymPy: V(φ) upgrade with chiral/color/EW phase bias terms_
 
 _spt_virtual_danode.py_
 
-Đợt 11 · v3.12 · 11/05/2026 · Tier —
+Đợt 11 · v3.12 · 10/05/2026 · Tier —
 
-Đợt 11 (v3.12, 11/05/2026 GMT+7) — VIRTUAL DANode EXISTENCE PROOF -----------------------------------------------------------------
+Đợt 11 (v3.12, 10/05/2026 GMT+7) — VIRTUAL DANode EXISTENCE PROOF -----------------------------------------------------------------
 
 **Run**: `python3 scripts/spt_virtual_danode.py` · **Source**: [`scripts/spt_virtual_danode.py`](../../scripts/spt_virtual_danode.py)
 
@@ -556,9 +556,9 @@ _spt_virtual_danode.py_
 
 _spt_wave_particle_duality.py_
 
-Đợt 14 · v3.16 · 11/05/2026 · Tier —
+Đợt 14 · v3.16 · 10/05/2026 · Tier —
 
-Đợt 14 (v3.16, 11/05/2026 GMT+7) — WAVE-PARTICLE DUALITY FROM DANode REGIMES ----------------------------------------------------------------------------
+Đợt 14 (v3.16, 10/05/2026 GMT+7) — WAVE-PARTICLE DUALITY FROM DANode REGIMES ----------------------------------------------------------------------------
 
 **Run**: `python3 scripts/spt_wave_particle_duality.py` · **Source**: [`scripts/spt_wave_particle_duality.py`](../../scripts/spt_wave_particle_duality.py)
 

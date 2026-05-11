@@ -3,7 +3,7 @@
 spt_virtual_danode.py
 =====================
 
-Đợt 11 (v3.12, 11/05/2026 GMT+7) — VIRTUAL DANode EXISTENCE PROOF
+Đợt 11 (v3.12, 10/05/2026 GMT+7) — VIRTUAL DANode EXISTENCE PROOF
 -----------------------------------------------------------------
 
 MATHEMATICAL TEST: does the virtual DANode (Node Âm-Dương ảo)
@@ -11,7 +11,7 @@ actually exist in the vacuum of the SPT Action? What IS it?
 How does it relate to Dark Matter, Dark Energy, antimatter?
 Can a REAL DANode act on a VIRTUAL one?
 
-NAMING CONVENTION (CLAUDE.md update 11/05/2026):
+NAMING CONVENTION (CLAUDE.md update 10/05/2026):
   DANode    = Node Âm-Dương = Duong-Am Node (replaces "Yin-Yang Node")
   DA(+)     = Dương phase, sign +1 (replaces "yang")
   DA(−)     = Âm phase, sign −1 (replaces "yin")

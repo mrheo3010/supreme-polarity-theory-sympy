@@ -3,7 +3,7 @@
 spt_wave_particle_duality.py
 ============================
 
-Đợt 14 (v3.16, 11/05/2026 GMT+7) — WAVE-PARTICLE DUALITY FROM DANode REGIMES
+Đợt 14 (v3.16, 10/05/2026 GMT+7) — WAVE-PARTICLE DUALITY FROM DANode REGIMES
 ----------------------------------------------------------------------------
 
 CENTRAL CLAIM (Law 44):
