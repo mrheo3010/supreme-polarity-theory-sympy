@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: SPT SymPy Verification Scripts
+message: >-
+  If you use these scripts in academic work, please cite them via this
+  CITATION.cff file or the equivalent GitHub "Cite this repository" link.
+type: software
+authors:
+  - given-names: Duc Anh
+    family-names: Phung
+    email: ducanh3010@gmail.com
+repository-code: https://github.com/REPLACE-WITH-YOUR-USERNAME/spt-sympy-proofs
+url: https://github.com/REPLACE-WITH-YOUR-USERNAME/spt-sympy-proofs
+abstract: >-
+  Reproducibility artefacts for the Supreme Polarity Theory (SPT,
+  Thuyết Thái Cực Vạn Vật) framework. Each Python script verifies one
+  SPT Law / closure from first principles using only SymPy and the
+  Python standard library, with zero free parameters and zero
+  external data dependencies. Auto-synced from the SPT webapp's
+  scripts/ directory.
+keywords:
+  - physics
+  - reproducibility
+  - SymPy
+  - SPT
+  - Supreme Polarity Theory
+  - Bagua
+  - Bát Quái
+  - theoretical physics
+  - verification
