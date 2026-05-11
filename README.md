@@ -3,7 +3,7 @@
 > **The highest mathematical accuracy any Theory-of-Everything candidate has achieved to date** — a unified framework deriving the Standard Model, gravity, cosmology, and quantum mechanics from a single Action on the Bagua hypercube `Q_n` with **zero new free parameters** and **84 reproducible SymPy verification scripts**.
 
 [![Verify all scripts](../../actions/workflows/verify-all.yml/badge.svg)](../../actions/workflows/verify-all.yml)
-[![Website](https://img.shields.io/badge/website-supremepolarity.com-cyan)](https://supremepolarity.com/)
+[![Website](https://img.shields.io/badge/website-www.supremepolarity.com-cyan)](https://www.supremepolarity.com/)
 [![License: research](https://img.shields.io/badge/license-research-blue.svg)](#license)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![SymPy 1.12+](https://img.shields.io/badge/sympy-1.12+-orange.svg)](https://www.sympy.org/)
@@ -49,7 +49,7 @@ No prior Theory-of-Everything candidate (string theory 1968-, LQG 1986-, MSSM 19
 **Duc Anh Phung** — independent researcher and architect of the SPT framework.
 
 - 📧 Email: [ducanh3010@gmail.com](mailto:ducanh3010@gmail.com)
-- 🌐 Website: [https://supremepolarity.com/](https://supremepolarity.com/)
+- 🌐 Website: [https://www.supremepolarity.com/](https://www.supremepolarity.com/)
 - 💼 GitHub: [@mrheo3010](https://github.com/mrheo3010)
 
 The framework was developed intensively over **6 days** (06/05/2026 → 12/05/2026), accumulating **38 batches** (*Đợt*) of derivations. Every claim in this archive is backed by a runnable SymPy script — the work is presented as-is for independent verification, peer review, and experimental falsification.
@@ -64,24 +64,24 @@ This archive contains the **SymPy verification scripts only**. The complete fram
 
 | Resource | Purpose |
 |---|---|
-| 🏠 **[supremepolarity.com](https://supremepolarity.com/)** | Main framework homepage with overview, breakthroughs, and navigation |
-| 📊 **[Comprehensive Status Report](https://supremepolarity.com/spt-status)** | One-page authoritative status: all 68 Laws, tier classifications, honest rigor matrix (4-class disclosure), independent-verification instructions, open gaps + roadmap |
-| 🔬 **[Derivation Explorer](https://supremepolarity.com/theory/derivation-explorer)** | Interactive table of every derived constant + every SPT Law with clickable wiki + SymPy + falsifier per row |
-| 📜 **[Discoveries Log](https://supremepolarity.com/discoveries-log)** | Chronological log of all 38 batches (*Đợt*) — date, time (GMT+7), problem closed, importance, link to wiki + SymPy script |
-| 📐 **[Theory pages](https://supremepolarity.com/theory)** | Per-Law dedicated wiki pages following the 8-section template (verify → SymPy → precision → detailed mechanism → comparison → importance → falsifier → conclusion) |
-| 🤖 **[Learn SPT with AI](https://supremepolarity.com/learn-with-ai)** | AI-guided tutorial walkthrough for newcomers — covers Bagua substrate, DANode, cascade slope d_0, and the 4-force unification |
-| 📍 **[Checkpoint Đợt 34](https://supremepolarity.com/theory/spt-checkpoint-dot-34)** | Frozen snapshot of framework state at end of Phase 6 — useful for citing a stable version |
+| 🏠 **[supremepolarity.com](https://www.supremepolarity.com/)** | Main framework homepage with overview, breakthroughs, and navigation |
+| 📊 **[Comprehensive Status Report](https://www.supremepolarity.com/spt-status)** | One-page authoritative status: all 68 Laws, tier classifications, honest rigor matrix (4-class disclosure), independent-verification instructions, open gaps + roadmap |
+| 🔬 **[Derivation Explorer](https://www.supremepolarity.com/theory/derivation-explorer)** | Interactive table of every derived constant + every SPT Law with clickable wiki + SymPy + falsifier per row |
+| 📜 **[Discoveries Log](https://www.supremepolarity.com/discoveries-log)** | Chronological log of all 38 batches (*Đợt*) — date, time (GMT+7), problem closed, importance, link to wiki + SymPy script |
+| 📐 **[Theory pages](https://www.supremepolarity.com/theory)** | Per-Law dedicated wiki pages following the 8-section template (verify → SymPy → precision → detailed mechanism → comparison → importance → falsifier → conclusion) |
+| 🤖 **[Learn SPT with AI](https://www.supremepolarity.com/learn-with-ai)** | AI-guided tutorial walkthrough for newcomers — covers Bagua substrate, DANode, cascade slope d_0, and the 4-force unification |
+| 📍 **[Checkpoint Đợt 34](https://www.supremepolarity.com/theory/spt-checkpoint-dot-34)** | Frozen snapshot of framework state at end of Phase 6 — useful for citing a stable version |
 
 ### Key wiki pages for the most important Laws
 
-- 📌 [Law 5 — α_em = 1/137](https://supremepolarity.com/theory/spt-law-full-tier-b-closure) (Sommerfeld 1916 closed)
-- 📌 [Law 41 — Virtual DANode](https://supremepolarity.com/theory/spt-law-virtual-danode) (DM + DE + antimatter + gravity unified)
-- 📌 [Law 42 — Unified Force Mechanism](https://supremepolarity.com/theory/spt-law-unified-force-mechanism) (why exactly 4 forces)
-- 📌 [Law 56 — Hadron Masses](https://supremepolarity.com/theory/spt-law-hadron-masses) (99% of visible matter mass)
-- 📌 [Law 57 — Hubble H_0](https://supremepolarity.com/theory/spt-law-hubble-h0) (4-year tension dissolved)
-- 📌 [Law 58 — Spacetime 3+1D](https://supremepolarity.com/theory/spt-law-spacetime-3plus1) (Kant 1770 question closed)
-- 📌 [Law 59 — 3+1+3 rigorous uniqueness](https://supremepolarity.com/theory/spt-law-spacetime-uniqueness)
-- 📌 [Law 68 — Yang-Mills Phase 8a rigorous lattice](https://supremepolarity.com/theory/spt-law-yangmills-phase8a) (first Clay-roadmap step)
+- 📌 [Law 5 — α_em = 1/137](https://www.supremepolarity.com/theory/spt-law-full-tier-b-closure) (Sommerfeld 1916 closed)
+- 📌 [Law 41 — Virtual DANode](https://www.supremepolarity.com/theory/spt-law-virtual-danode) (DM + DE + antimatter + gravity unified)
+- 📌 [Law 42 — Unified Force Mechanism](https://www.supremepolarity.com/theory/spt-law-unified-force-mechanism) (why exactly 4 forces)
+- 📌 [Law 56 — Hadron Masses](https://www.supremepolarity.com/theory/spt-law-hadron-masses) (99% of visible matter mass)
+- 📌 [Law 57 — Hubble H_0](https://www.supremepolarity.com/theory/spt-law-hubble-h0) (4-year tension dissolved)
+- 📌 [Law 58 — Spacetime 3+1D](https://www.supremepolarity.com/theory/spt-law-spacetime-3plus1) (Kant 1770 question closed)
+- 📌 [Law 59 — 3+1+3 rigorous uniqueness](https://www.supremepolarity.com/theory/spt-law-spacetime-uniqueness)
+- 📌 [Law 68 — Yang-Mills Phase 8a rigorous lattice](https://www.supremepolarity.com/theory/spt-law-yangmills-phase8a) (first Clay-roadmap step)
 
 ---
 
