@@ -39,3 +39,15 @@ Each Đợt is a coherent batch of SPT closures shipped together.
 - [Đợt 36](./dot-36.md) — 1 script
 - [Đợt 37](./dot-37.md) — 1 script
 - [Đợt 38](./dot-38.md) — 1 script
+- [Đợt 39](./dot-39.md) — 1 script
+- [Đợt 40](./dot-40.md) — 1 script
+- [Đợt 41](./dot-41.md) — 1 script
+- [Đợt 42](./dot-42.md) — 1 script
+- [Đợt 43](./dot-43.md) — 1 script
+- [Đợt 44](./dot-44.md) — 1 script
+- [Đợt 45](./dot-45.md) — 1 script
+- [Đợt 46](./dot-46.md) — 1 script
+- [Đợt 47](./dot-47.md) — 1 script
+- [Đợt 48](./dot-48.md) — 1 script
+- [Đợt 49](./dot-49.md) — 1 script
+- [Đợt 50](./dot-50.md) — 1 script

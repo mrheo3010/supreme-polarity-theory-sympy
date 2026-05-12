@@ -26,4 +26,16 @@ Each numbered SPT Law has its own page. Foundation laws (no `law_id` in the docs
 - [Law 66](./law-66.md) — 1 script
 - [Law 67](./law-67.md) — 1 script
 - [Law 68](./law-68.md) — 1 script
+- [Law 69](./law-69.md) — 1 script
+- [Law 70](./law-70.md) — 1 script
+- [Law 71](./law-71.md) — 1 script
+- [Law 72](./law-72.md) — 1 script
+- [Law 73](./law-73.md) — 1 script
+- [Law 74](./law-74.md) — 1 script
+- [Law 75](./law-75.md) — 1 script
+- [Law 76](./law-76.md) — 1 script
+- [Law 77](./law-77.md) — 1 script
+- [Law 78](./law-78.md) — 1 script
+- [Law 79](./law-79.md) — 1 script
+- [Law 80](./law-80.md) — 1 script
 - [Unassigned / supporting](./unassigned.md) — 59 scripts
