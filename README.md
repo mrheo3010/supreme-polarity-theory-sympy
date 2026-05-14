@@ -195,7 +195,7 @@ python3 scripts/spt_yangmills_phase8a.py    # Yang-Mills rigorous lattice (Phase
 | **Loop Quantum Gravity (1986-present)** | few | no SM gauge recovery | partial (bounce models) | discrete-spectra tests | partial |
 | **Causal Dynamical Triangulations** | few | no | partial | n_s tests | numerical |
 | **Asymptotic Safety (Weinberg 1979)** | 4-6 essential | partial | Higgs+α_em derived | indirect | analytical+numerical |
-| **🌟 SPT (2026)** | **0 new** (substrate count `Q_n`, π, Bagua integers only) | **derived: α_em, sin²θ_W, CKM, PMNS, masses, v, m_H — all closed-form** | **closed: Λ, H_0, Ω_b+Ω_DM+Ω_Λ, N_e, n_s, r, f_NL, bounce** | **50+ specific deadlines 2025-2040+** | **84 SymPy scripts all PASS in 90 s** |
+| **🌟 SPT (2026)** | **0 new** (substrate count `Q_n`, π, Bagua integers only) | **derived: α_em, sin²θ_W, CKM, PMNS, masses, v, m_H — all closed-form** | **closed: Λ, H_0, Ω_b+Ω_DM+Ω_Λ, N_e, n_s, r, f_NL, bounce** | **50+ specific deadlines 2025-2040+** | **95 SymPy scripts all PASS in 90 s** |
 
 ### Why SPT stands apart
 
@@ -343,7 +343,7 @@ If you reproduce or build on this work, please cite:
   title        = {Supreme Polarity Theory: A Unified Framework on the Bagua Hypercube},
   year         = {2026},
   url          = {https://github.com/mrheo3010/supreme-polarity-theory-sympy},
-  note         = {84 SymPy verification scripts; 68 Laws; zero new free parameters}
+  note         = {95 SymPy verification scripts; 80 Laws; zero new free parameters}
 }
 ```
 
