@@ -4,7 +4,7 @@
 
 | Law | Script | Tier | Brief |
 |---|---|---|---|
-| — | [`spt_alpha_em.py`](../../scripts/spt_alpha_em.py) | — | Two coupling constants from Bagua structure: |
+| — | [`spt_alpha_em.py`](../../scripts/spt_alpha_em.py) | B-EXACT | HONEST SCOPE (revised audit, 2026): This script does TWO things: |
 | — | [`spt_anomaly_cancellation.py`](../../scripts/spt_anomaly_cancellation.py) | — | (Quick win C8, 10/05/2026). |
 | — | [`spt_bh_unitarity.py`](../../scripts/spt_bh_unitarity.py) | — | on the event horizon, grounded in the c = a/τ membrane principle. |
 | — | [`spt_blackhole.py`](../../scripts/spt_blackhole.py) | B | Two famous formulas, both Tier B once G is treated as derived (large-N phase-mixing residual N = 2^140): |

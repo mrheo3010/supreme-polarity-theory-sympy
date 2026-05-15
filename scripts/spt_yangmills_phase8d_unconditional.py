@@ -96,17 +96,20 @@ Two-loop β-function for SU(3) Yang-Mills (Gross-Wilczek 1973, Caswell
 Two-loop running coupling:
   g²(μ) = 1 / [2·b_0·ln(μ/Λ_QCD) + (b_1/b_0)·ln·ln(μ/Λ_QCD)]
 
-INTEGRATION:
-  μ_UV = 1/ℓ_Planck ≈ 6.2×10²⁸ GeV
-  μ_IR = Λ_QCD ≈ 217 MeV
-  ln(μ_UV/μ_IR) = ln(6.2×10²⁸ × 10³ / 0.217) ≈ ln(2.86×10³²) ≈ 74.5
-  Note: 20 decades × ln(10) ≈ 46 + correction ≈ 74.5 e-folds
+INTEGRATION (CORRECTED 2026 audit):
+  μ_UV = M_Planck (in natural ħ=c=1 units, μ_UV ≡ 1/ℓ_Planck = M_Planck)
+       = 1.22×10¹⁹ GeV
+  μ_IR = Λ_QCD ≈ 0.217 GeV
+  ln(μ_UV/μ_IR) = ln(1.22×10¹⁹ / 0.217) = ln(5.6×10¹⁹) ≈ 45.4
+  i.e. ~ 20 decades × ln(10) ≈ 45 e-folds (NOT 74 — an earlier draft of
+  this script incorrectly wrote μ_UV ≈ 6×10²⁸ GeV, off by 10 orders of
+  magnitude; corrected here).
 
 At μ = M_Planck:
-  g²(M_Pl) = 1 / (2·0.0533·74.5) ≈ 0.126
+  g²(M_Pl) = 1 / (2·0.0533·45.4) ≈ 0.207
 
-This is small — perturbation theory converges. RG flow is well-controlled
-at UV.
+This is still small — perturbation theory converges. RG flow is
+well-controlled at UV.
 
 At μ = Λ_QCD:
   Denominator → 0
@@ -115,6 +118,14 @@ At μ = Λ_QCD:
 Confinement is RIGOROUS at the level of perturbative β-function: the
 coupling DIVERGES at μ = Λ_QCD by definition. This signals the formation
 of a confining phase with mass gap.
+
+CAVEAT: Perturbative β-function diverging at Λ_QCD does NOT actually
+prove existence of a non-zero mass gap in the rigorous mathematical
+sense required by Clay. The Clay problem demands a constructive proof
+that the continuum theory has a positive mass gap, which is what the
+constructive-QFT programme of Glimm-Jaffe (and successors) has not
+delivered in 4D for 25 years. The perturbative argument here is
+suggestive, not rigorous.
 """)
     N_c = 3
     b_0 = (11 * N_c) / (48 * pi**2)
@@ -263,11 +274,32 @@ Law 78 RESULTS:
   - For Clay Institute acceptance: peer review needed, plus showing
     substrate-cutoff version IS a valid 4D continuum Yang-Mills
 
-  HONEST SCOPE: Tier B-PASS for SPT substrate-cutoff. Combined with
-  Laws 73 and 77, this represents ~95 % completion of Phase 8 Clay
-  Yang-Mills roadmap for the SPT interpretation. The remaining 5 %
-  is generic-Wilson strict-continuum version, which is harder and is
-  the Clay problem as classically stated.
+  HONEST SCOPE (revised 2026 audit):
+
+  - For the SPT substrate-cutoff framework at FIXED a = ℓ_Planck: a
+    partial structural framework is in place (lattice gauge invariance,
+    reflection positivity at lattice level, Gibbs measure on finite-V
+    config space, perturbative β-function indicates Landau pole at
+    Λ_QCD, lattice numerical agreement with Morningstar-Peardon to
+    ~10% on glueball mass).
+
+  - The "~95 % Clay completion" figure from earlier drafts is
+    RETRACTED. A realistic estimate of how much of the classical
+    Clay Yang-Mills problem this work addresses is:
+      * ~20-30 % structural framing (placing substrate-cutoff
+        formulation in OS-axiom language);
+      * 0 % rigorous strict-continuum proof on R^4 (that is the Clay
+        problem proper, open globally for all approaches);
+      * 0 % rigorous proof of positive mass gap in continuum theory
+        (also Clay proper);
+      * Suggestive numerical match m_gap ~ Λ_QCD·√(6π) ≈ 942 MeV,
+        with √(6π) coefficient chosen to match lattice ~4.0 (within
+        ~8.5 %, not derived from first principles).
+
+  - This work is NOT a Clay solution and the author does NOT apply
+    for the Clay prize on the basis of this paper. The contribution,
+    if any, is a clean substrate-cutoff starting point for future
+    constructive-QFT work.
 """)
 
     print()

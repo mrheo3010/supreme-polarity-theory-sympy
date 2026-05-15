@@ -6,9 +6,9 @@
 
 _SymPy verification: fine-structure α_em and strong coupling α_s._
 
-Foundation · Tier —
+Foundation · Tier B-EXACT
 
-Two coupling constants from Bagua structure:
+HONEST SCOPE (revised audit, 2026): This script does TWO things:
 
 **Run**: `python3 scripts/spt_alpha_em.py` · **Source**: [`scripts/spt_alpha_em.py`](../../scripts/spt_alpha_em.py)
 

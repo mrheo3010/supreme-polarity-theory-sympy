@@ -4,17 +4,29 @@ if hasattr(sys.stdout, "reconfigure"):
 
 """SymPy verification: fine-structure α_em and strong coupling α_s.
 
-Two coupling constants from Bagua structure:
+HONEST SCOPE (revised audit, 2026):
+This script does TWO things:
 
-  (1) α_em fine-structure constant:
-      Bagua-clean integer hint  1/α_em ≈ Q₇ + Q₃ + 1 = 128 + 8 + 1 = 137
-      matches CODATA 1/α_em = 137.036 to Δ 0.026 % at the Planck scale.
-      The remaining +0.036 is one-loop QED running α_em ln(M_Pl/M_e)/(2π).
+  Stage 1 — symbolic integer identity (Tier-B EXACT):
+      Verifies 1/α_em^low ≈ Q_7 + Q_3 + 1 = 128 + 8 + 1 = 137,
+      which matches the *low-energy* CODATA value 137.036 to Δ 0.026 %.
 
-  (2) α_s strong coupling at M_Z:
-      QCD asymptotic freedom: α_s(M_Z) = 1/(b_0 * ln(M_Z/Λ_QCD))
-      with b_0 = (33-2 N_f)/(12π) for N_f=5 active flavours = 23/(12π).
-      SPT closes Λ_QCD via cascade depth d_QCD ≈ 28 → Λ_QCD ≈ 200 MeV.
+      IMPORTANT: This integer match is at the LOW-ENERGY scale (electron-mass
+      scale), NOT at the Planck scale. The SM RG running predicts
+      1/α_em(M_Pl) ~ 110-130 (smaller than 137), so the Bagua integer count
+      should be interpreted as the IR-asymptotic combinatorial degree count,
+      not as the UV/Planck value.
+
+      The "+0.036 from QED running" mentioned in earlier drafts of this
+      script was INSERTED BY HAND from textbook values; the script does NOT
+      actually carry out the RG integration from M_Planck to m_e. Treat the
+      integer identity Q_7 + Q_3 + 1 = 137 as a symbolic statement only.
+
+  Stage 2 — α_s strong coupling (Tier-A, heuristic):
+      QCD asymptotic freedom α_s(M_Z) = 1/(b_0 * ln(M_Z/Λ_QCD)).
+      Λ_QCD is computed from a HEURISTIC cascade depth d_QCD = 28
+      that itself was chosen to match measured Λ_QCD ≈ 200 MeV.
+      This is admitted-to-be-heuristic, not derived.
 
 Run:  python3 scripts/spt_alpha_em.py
 """
@@ -24,36 +36,33 @@ import sympy as sp
 
 def stage1_alpha_em() -> None:
     print("=" * 72)
-    print("STAGE 1 — α_em fine-structure: Bagua integer hint")
+    print("STAGE 1 — α_em integer identity at LOW-ENERGY scale")
     print("=" * 72)
-    # SPT ansatz: 1/α_em(M_Pl) = Q_7 + Q_3 + 1 = 128 + 8 + 1 = 137
+    # SPT integer identity: Q_7 + Q_3 + 1 = 128 + 8 + 1 = 137
+    # SCALE: this matches the LOW-ENERGY value 1/α_em ≈ 137.036, NOT Planck.
     Q7 = sp.Integer(128)
     Q3 = sp.Integer(8)
-    inv_alpha_planck = Q7 + Q3 + sp.Integer(1)
+    inv_alpha = Q7 + Q3 + sp.Integer(1)
     print(f"  Bagua: |Q_7| = {Q7} (vertex count of 7-cube)")
     print(f"         |Q_3| = {Q3} (8 trigrams)")
     print(f"         vacuum +1")
-    print(f"  Ansatz: 1/α_em(M_Pl) = Q_7 + Q_3 + 1 = {inv_alpha_planck}")
+    print(f"  Ansatz (low-energy scale): 1/α_em ≈ Q_7 + Q_3 + 1 = {inv_alpha}")
     print()
-    # CODATA 1/α_em(0) (low-energy) = 137.035999084
+    # CODATA 1/α_em (low-energy) = 137.035999084
     codata = 137.035999084
-    delta_planck = abs(float(inv_alpha_planck) - codata) / codata * 100
-    print(f"  CODATA 1/α_em(low-energy) = {codata:.6f}")
-    print(f"  Delta from raw 137         = {delta_planck:.4f} %  (CLOSE)")
+    delta = abs(float(inv_alpha) - codata) / codata * 100
+    print(f"  CODATA 1/α_em(low-energy)  = {codata:.6f}")
+    print(f"  Delta from raw 137          = {delta:.4f} %  (CLOSE, Tier-B)")
     print()
-    # SM RG running from M_Planck → M_e: 1/α(μ) running term
-    # δ(1/α) = (2/(3π)) Σ_f q_f^2 ln(μ/m_f)  for charged fermions
-    # SPT prediction: 1/α(M_Pl) = 137 (integer), 1/α(M_e) = 137.036
-    # δ_running = 137.036 - 137 = +0.036
-    delta_running = sp.Rational(36, 1000)  # 0.036
-    inv_alpha_low = inv_alpha_planck + delta_running
-    print(f"  SM 1-loop QED running M_Pl → M_e:")
-    print(f"    δ(1/α) = α_em ln(M_Pl/M_e) / (2π)")
-    print(f"    ≈ +0.036 (textbook Buttazzo+Shaposhnikov)")
-    print(f"  Predicted 1/α_em(M_e) = 137 + 0.036 = {float(inv_alpha_low):.4f}")
-    delta_full = abs(float(inv_alpha_low) - codata) / codata * 100
-    verdict = "PASS" if delta_full < 0.1 else "CLOSE"
-    print(f"  Delta from CODATA          = {delta_full:.4f} %  {verdict}")
+    print("  HONEST SCOPE:")
+    print("  - The integer 137 matches the LOW-ENERGY value.")
+    print("  - SM RG running predicts 1/α_em(M_Pl) ~ 110-130, smaller than 137.")
+    print("  - SPT does NOT currently derive the SM RG running from substrate.")
+    print("  - Earlier drafts inserted '+0.036 from QED running' by hand from")
+    print("    textbook values (Buttazzo+Shaposhnikov); this was a hand-fit,")
+    print("    not a derivation. Removed in this revision for honesty.")
+    print("  - Open Phase 2: derive the substrate-to-IR coupling flow that")
+    print("    produces the integer identity at the IR fixed point.")
     print()
 
 
