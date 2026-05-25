@@ -1,6 +1,6 @@
 # Foundation
 
-36 scripts in this batch.
+37 scripts in this batch.
 
 | Law | Script | Tier | Brief |
 |---|---|---|---|
@@ -31,6 +31,7 @@
 | — | [`spt_omega_b_pass_search.py`](../../scripts/spt_omega_b_pass_search.py) | B-PASS | and pure math constants (pi, sqrt) only, no CODATA. |
 | — | [`spt_omega_b_sympy.py`](../../scripts/spt_omega_b_sympy.py) | — | Question: can Omega_b be brought to PASS via a closed-form expression verified by SymPy, the way d0 = sqrt(7)/4 was? |
 | — | [`spt_pmns.py`](../../scripts/spt_pmns.py) | — | Three Bagua family columns on Q_7 → cascade-overlap integrals reproduce the three measured PMNS angles {θ_12, θ_23, θ_13} and the two mas... |
+| — | [`spt_q7_lattice_dynamics_verify.py`](../../scripts/spt_q7_lattice_dynamics_verify.py) | B | Verifies 3 mathematical claims made in the DANode dynamics discussion: |
 | — | [`spt_qcd_theta.py`](../../scripts/spt_qcd_theta.py) | — | θ_QCD is one of the great unsolved puzzles of the Standard Model: why is it < 10⁻¹⁰ instead of O(1)?  In SPT, θ_QCD = 0 exactly because t... |
 | — | [`spt_sm_masses.py`](../../scripts/spt_sm_masses.py) | B | m(d) = m_Pl * exp(-d/d_0)    with d_0 = sqrt(7)/4   (May 2026 algebraic-exact) |
 | — | [`spt_speed_of_light.py`](../../scripts/spt_speed_of_light.py) | — | There are TWO distinct claims about c that need separating: |

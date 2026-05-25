@@ -1,6 +1,6 @@
 # Unassigned / supporting scripts
 
-59 scripts verify this Law.
+60 scripts verify this Law.
 
 ## `spt_alpha_em.py`
 
@@ -381,6 +381,16 @@ Foundation · Tier —
 Three Bagua family columns on Q_7 → cascade-overlap integrals reproduce the three measured PMNS angles {θ_12, θ_23, θ_13} and the two mass-squared splittings {Δm²_21, Δm²_32}.
 
 **Run**: `python3 scripts/spt_pmns.py` · **Source**: [`scripts/spt_pmns.py`](../../scripts/spt_pmns.py)
+
+## `spt_q7_lattice_dynamics_verify.py`
+
+_SPT Q_7 Lattice Dynamics — Tier-B Verification._
+
+Foundation · Tier B
+
+Verifies 3 mathematical claims made in the DANode dynamics discussion:
+
+**Run**: `python3 scripts/spt_q7_lattice_dynamics_verify.py` · **Source**: [`scripts/spt_q7_lattice_dynamics_verify.py`](../../scripts/spt_q7_lattice_dynamics_verify.py)
 
 ## `spt_qcd_confinement.py`
 
