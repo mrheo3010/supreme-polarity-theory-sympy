@@ -2,7 +2,7 @@
 
 Each Đợt is a coherent batch of SPT closures shipped together.
 
-- [Foundation](./00-foundation.md) — 37 scripts
+- [Foundation](./00-foundation.md) — 80 scripts
 - [Đợt 2](./dot-02.md) — 5 scripts
 - [Đợt 3](./dot-03.md) — 3 scripts
 - [Đợt 4](./dot-04.md) — 3 scripts
